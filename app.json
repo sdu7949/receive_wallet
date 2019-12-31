@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "receiveWallet",
+    "slug": "receiveWallet",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/bboomcoin_splash_img.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lawdians.receiveWallet"
+    },
+    "android": {
+      "package": "com.lawdians.receiveWallet"
+    }
+  }
+}
